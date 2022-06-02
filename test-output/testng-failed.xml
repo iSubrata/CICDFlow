@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" configfailurepolicy="continue" name="Failed suite [TestNg-Maven Parallel Test Suite]" parallel="tests">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="version" value="101.0"/>
+  <parameter name="platform" value="WIN11"/>
+  <test name="Test in Chrome Browser(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="version" value="101.0"/>
+    <parameter name="platform" value="WIN11"/>
+    <classes>
+      <class name="com.bs.auto.demo.Demo1">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.bs.auto.demo.Demo1 -->
+      <class name="com.bs.auto.demo.Demo2">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="method2"/>
+        </methods>
+      </class> <!-- com.bs.auto.demo.Demo2 -->
+    </classes>
+  </test> <!-- Test in Chrome Browser(failed) -->
+</suite> <!-- Failed suite [TestNg-Maven Parallel Test Suite] -->

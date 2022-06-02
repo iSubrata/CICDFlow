@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestNg-Maven Parallel Test Suite" duration-ms="6545" started-at="2022-06-02T07:01:03Z" finished-at="2022-06-02T07:01:10Z">
+    <groups>
+    </groups>
+    <test name="Test in Chrome Browser" duration-ms="6373" started-at="2022-06-02T07:01:03Z" finished-at="2022-06-02T07:01:10Z">
+      <class name="com.bs.auto.demo.Demo2">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.bs.auto.demo.Demo2@21213b92]" name="setUp" is-config="true" duration-ms="1188" started-at="2022-06-02T12:31:07Z" finished-at="2022-06-02T12:31:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[101.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WIN11]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="method2()[pri:0, instance:com.bs.auto.demo.Demo2@21213b92]" name="method2" duration-ms="1233" started-at="2022-06-02T12:31:09Z" finished-at="2022-06-02T12:31:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.bs.auto.demo.Demo2@21213b92]" name="afterMethod" is-config="true" duration-ms="58" started-at="2022-06-02T12:31:10Z" finished-at="2022-06-02T12:31:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.bs.auto.demo.Demo2 -->
+      <class name="com.bs.auto.demo.Demo1">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.bs.auto.demo.Demo1@55d56113]" name="setUp" is-config="true" duration-ms="2063" started-at="2022-06-02T12:31:03Z" finished-at="2022-06-02T12:31:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[101.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WIN11]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="method1()[pri:0, instance:com.bs.auto.demo.Demo1@55d56113]" name="method1" duration-ms="1180" started-at="2022-06-02T12:31:06Z" finished-at="2022-06-02T12:31:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.bs.auto.demo.Demo1@55d56113]" name="afterMethod" is-config="true" duration-ms="636" started-at="2022-06-02T12:31:07Z" finished-at="2022-06-02T12:31:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.bs.auto.demo.Demo1 -->
+    </test> <!-- Test in Chrome Browser -->
+    <test name="Chrome Browser Test" duration-ms="6545" started-at="2022-06-02T07:01:03Z" finished-at="2022-06-02T07:01:10Z">
+      <class name="com.bs.auto.demo.Demo2">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.bs.auto.demo.Demo2@18eed359]" name="setUp" is-config="true" duration-ms="1336" started-at="2022-06-02T12:31:07Z" finished-at="2022-06-02T12:31:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[101.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WIN11]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="method2()[pri:0, instance:com.bs.auto.demo.Demo2@18eed359]" name="method2" duration-ms="1111" started-at="2022-06-02T12:31:09Z" finished-at="2022-06-02T12:31:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.bs.auto.demo.Demo2@18eed359]" name="afterMethod" is-config="true" duration-ms="132" started-at="2022-06-02T12:31:10Z" finished-at="2022-06-02T12:31:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.bs.auto.demo.Demo2 -->
+      <class name="com.bs.auto.demo.Demo1">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.bs.auto.demo.Demo1@520a3426]" name="setUp" is-config="true" duration-ms="2067" started-at="2022-06-02T12:31:03Z" finished-at="2022-06-02T12:31:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[101.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WIN11]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="method1()[pri:0, instance:com.bs.auto.demo.Demo1@520a3426]" name="method1" duration-ms="1194" started-at="2022-06-02T12:31:06Z" finished-at="2022-06-02T12:31:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.bs.auto.demo.Demo1@520a3426]" name="afterMethod" is-config="true" duration-ms="689" started-at="2022-06-02T12:31:07Z" finished-at="2022-06-02T12:31:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.bs.auto.demo.Demo1 -->
+    </test> <!-- Chrome Browser Test -->
+  </suite> <!-- TestNg-Maven Parallel Test Suite -->
+</testng-results>

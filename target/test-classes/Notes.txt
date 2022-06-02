@@ -1,0 +1,31 @@
+//System.setProperty("webdriver.chrome.driver", "E:\\RND\\Automation\\BrowserDriver\\chromedriver.exe");
+	  //For Firefox
+	  /*
+	   *System.setProperty("webdriver.gecko.driver", "<Gecko Driver executable location on your system>"); 
+		WebDriver driver = new FirefoxDriver(); 127.0
+		//IE
+		 * System.out.println("Setting IE Driver Path in System Variables");    
+        WebDriver driver=new InternetExplorerDriver();
+        String exePath = "C:\\Users\\abc\\Documents\\IEDriverServer\\IEDriverServer.exe";
+		InternetExplorerDriverService.Builder serviceBuilder = new InternetExplorerDriverService.Builder();
+		serviceBuilder.usingPort(1080); // This specifies that sever should start at this port
+		serviceBuilder.usingDriverExecutable(new File(exePath)); //Tell it where you server exe is
+		serviceBuilder.withHost("2.45.0.0");
+		InternetExplorerDriverService service = serviceBuilder.build(); //Create a driver service and pass it to Internet explorer driver instance
+		InternetExplorerDriver driver = new InternetExplorerDriver(service);
+		driver.get("https://toolsqa.com");
+	   */
+	   Headless driver: https://www.toolsqa.com/selenium-webdriver/selenium-headless-browser-testing/
+	   EDGE DRIVER
+	    System.setProperty("webdriver.edge.driver","C:\\seleniumDemo\\msedgedriver85.exe");
+       
+        //Initialize the EdgeOptions class
+        EdgeOptions edgeOptions =new EdgeOptions();
+        
+        //Use the addArguments method for configuring headless
+        edgeOptions.addArguments("headless");
+        
+        //Pass the edgeOptions object to the Edge Driver
+        WebDriver driver= new EdgeDriver(edgeOptions);
+        
+        AUTO IT: https://www.toolsqa.com/selenium-webdriver/autoit-selenium-webdriver/

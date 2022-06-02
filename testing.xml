@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNg-Maven Parallel Test Suite" verbose="1" parallel="tests" thread-count="2" configfailurepolicy="continue">
+	<test name="Test in Chrome Browser">
+		<parameter name="browser" value="chrome" />
+        <parameter name="version" value="101.0" />
+        <parameter name="platform" value="WIN11" />
+		<classes>
+			<!-- <class name="com.bs.auto.test.Example"/>  -->
+			<class name="com.bs.auto.demo.Demo1"/>
+			<class name="com.bs.auto.demo.Demo2"/>
+		</classes>
+	</test>
+	
+	<test name="Chrome Browser Test">
+		<parameter name="browser" value="chrome" />
+        <parameter name="version" value="101.0" />
+        <parameter name="platform" value="WIN11" />
+		<classes>
+			
+			<class name="com.bs.auto.demo.Demo1"/>
+			 <class name="com.bs.auto.demo.Demo2"/>
+		</classes>
+	</test>
+	 
+	<!-- <test name="Test in Firefox Browser">
+        <parameter name="browser" value="firefox" />
+        <parameter name="version" value=" 100.0" />
+        <parameter name="platform" value="WIN11" />
+        <classes>
+          
+			<class name="com.bs.auto.demo.Demo1"/>
+			<class name="com.bs.auto.demo.Demo2"/>
+        </classes>
+    </test>-->
+   
+</suite>
